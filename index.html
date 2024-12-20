@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Capture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Camera Capture</h1>
+        <video id="video" autoplay></video>
+        <canvas id="canvas" class="hidden"></canvas>
+        <div class="controls">
+            <button id="capture">Capture Photo</button>
+            <button id="switch">Switch Camera</button>
+        </div>
+        <div id="photo-preview" class="hidden">
+            <h2>Captured Photo</h2>
+            <img id="photo" alt="Captured Photo">
+            <a id="download" class="hidden">Download Photo</a>
+            <a id="whatsapp-link" class="hidden" target="_blank">Share on WhatsApp</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
